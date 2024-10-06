@@ -19,6 +19,7 @@
 
 #include "main.h"
 #include "systick.h"
+#include "pwr.h"
 
 /* Private macros ---------------------------------------------------------- */
 
@@ -101,6 +102,7 @@ static void setup_hardware(void)
     setup_fpu();
 
     systick_init(16000000);
+    pwr_init();
 }
 /* ------------------------------------------------------------------------- */
 
