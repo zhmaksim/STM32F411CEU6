@@ -29,7 +29,7 @@
 #define configUSE_TIME_SLICING                      1
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION     0
 #define configIDLE_SHOULD_YIELD                     0
-#define configCPU_CLOCK_HZ                          16000000
+#define configCPU_CLOCK_HZ                          96000000
 #define configTICK_RATE_HZ                          1000
 #define configMAX_PRIORITIES                        7
 #define configMINIMAL_STACK_SIZE                    128
