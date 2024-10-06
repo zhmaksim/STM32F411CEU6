@@ -20,6 +20,7 @@
 #include "main.h"
 #include "systick.h"
 #include "pwr.h"
+#include "flash.h"
 
 /* Private macros ---------------------------------------------------------- */
 
@@ -103,6 +104,7 @@ static void setup_hardware(void)
 
     systick_init(16000000);
     pwr_init();
+    flash_init();
 }
 /* ------------------------------------------------------------------------- */
 
